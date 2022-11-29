@@ -1,0 +1,104 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+body{
+
+   background-image: url(/assets/bg.png);
+   background-repeat: no-repeat;
+   margin: 0px;
+   padding: 0px;
+   background-size: 100% 100%;
+}
+
+img{
+    padding-top: 25px;
+    size: 10px;
+    text-align: center;
+}
+.container{
+    align-items: center;
+
+    
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    color: white;
+    padding-top: px;
+    padding-left: 20px;
+    
+}
+.grow-list{
+    list-style: none;
+    display: flex;
+ 
+    
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+
+  
+}
+.button-small{
+background-color:deeppink;
+height: 40px;
+width: 110px;
+color: white;
+ margin-top: 35px;
+ margin-left: 300px;
+ border-radius: 10px;
+ border-color: deeppink;
+ 
+}
+
+
+.list{
+  
+    margin: 20px;
+    border: 1px solid white;
+    padding: 20px;
+    border-right-color: black;
+    border-top-color: black;
+    border-bottom-color: black;
+    
+}
+
+
+/*  */
+
+.hero{
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    margin: 350px;
+   margin-left: 400px;
+    margin-top: 100px;
+    
+
+    
+
+}
+.hero-heading{
+    font-size: 65px;
+    color: white;
+   
+
+}
+.hero-description{
+    color: white;
+    margin-left: 90px;
+    margin-top: -50px;
+    letter-spacing: 2px;
+}
+.button-large{
+    margin-left: 140px;
+    height: 50px;
+    width: 260px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: deeppink;
+    background-color: deeppink;
+    color: white;
+}
